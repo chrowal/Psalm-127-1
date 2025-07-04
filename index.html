@@ -1,61 +1,74 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <style>
-  body {
-    background-image: url('background.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    color: white; /* optional: make text readable */
-  }
-</style>
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Psalm 127:1</title>
   <style>
     body {
       font-family: Georgia, serif;
-      background-color: #f9f9f9;
-      color: #222;
+      background-image: url('background.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      color: white;
       text-align: center;
       padding: 40px;
+      margin: 0;
     }
-    h1 {
+
+    .logo {
+      max-width: 250px;
+      height: auto;
+      margin-top: 20px;
+    }
+
+    .verse-box {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 800px;
+      margin: 40px auto;
       font-size: 24px;
-      margin-bottom: 20px;
+      line-height: 1.6;
     }
-    a {
+
+    h1 {
+      margin-top: 0;
+      font-size: 28px;
+    }
+
+    .shop-link {
       display: inline-block;
-      margin-top: 25px;
+      margin-top: 30px;
       font-size: 18px;
-      color: #0073e6;
+      color: #FFD700;
       text-decoration: none;
-      border-bottom: 1px solid #0073e6;
+      border-bottom: 1px solid #FFD700;
     }
-    a:hover {
-      color: #0056b3;
-      border-bottom: 1px solid #0056b3;
+
+    .shop-link:hover {
+      color: #ffffff;
+      border-bottom: 1px solid #ffffff;
     }
   </style>
 </head>
 <body>
-<div style="text-align: center; margin-top: 20px;">
-  <img src="logo.png" alt="Blue Collar Believer Logo" style="max-width: 250px; height: auto;">
 
- <div style="color: #ffffff; font-size: 24px; text-align: center; background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 12px; max-width: 800px; margin: 40px auto;">
- </div>  <h1>Psalm 127:1</h1>
-  Unless the LORD builds the house,<br />
-      its builders labor in vain;<br /><br />
-      Unless the LORD protects the city,<br />
-      its watchmen stand guard in vain.
-</div>
+  <img src="logo.png" alt="Blue Collar Believer Logo" class="logo">
 
-  <a href="https://amazon.com/s?me=A18IH9ULAPWLUI&ref=sf_seller_app_share_new" target="_blank">
+  <div class="verse-box">
+    <h1>Psalm 127:1</h1>
+    Unless the LORD builds the house,<br>
+    its builders labor in vain;<br><br>
+    Unless the LORD protects the city,<br>
+    its watchmen stand guard in vain.
+  </div>
+
+  <a href="https://amazon.com/s?me=A18IH9ULAPWLUI&ref=sf_seller_app_share_new" target="_blank" class="shop-link">
     Click here to purchase a piece of clothing for yourself!
   </a>
+
 </body>
 </html>
